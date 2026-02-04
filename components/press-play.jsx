@@ -14,7 +14,7 @@ export default function PressPlay() {
           {/* Play Button Overlay */}
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 hover:bg-opacity-30 transition cursor-pointer">
             <button className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition transform">
-              <svg className="w-7 h-7 text-teal-600 ml-1" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-7 h-7 text-secondary ml-1" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
               </svg>
             </button>

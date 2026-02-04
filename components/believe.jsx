@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Believe() {
   return (
-    <section className="relative bg-gradient-to-b from-teal-900 to-teal-800 py-16 md:py-24">
+    <section className="relative bg-secondary py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 order-2 md:order-1">
@@ -12,7 +12,7 @@ export default function Believe() {
             <p className="text-white text-lg opacity-90">
               Let us show you how to work smarter with contracts in Oneflow.
             </p>
-            <button className="px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition">
+            <button className="btn-primary">
               Get a demo
             </button>
           </div>

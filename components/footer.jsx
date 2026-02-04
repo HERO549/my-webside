@@ -2,19 +2,19 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400">
+    <footer className="bg-secondary text-white/70">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         {/* Newsletter CTA */}
-        <div className="mb-16 pb-12 border-b border-gray-800">
+        <div className="mb-16 pb-12 border-b border-white/10">
           <h3 className="text-2xl font-bold text-white mb-4">Get in the flow</h3>
-          <p className="text-gray-400 mb-6">Get the latest articles straight to your inbox on what keeps your business flowing.</p>
+          <p className="text-white/70 mb-6">Get the latest articles straight to your inbox on what keeps your business flowing.</p>
           <div className="flex gap-2">
             <input
               type="email"
               placeholder="your@email.com"
-              className="flex-1 px-4 py-3 bg-gray-800 text-white rounded placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="flex-1 px-4 py-3 bg-white/10 text-white rounded placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-accent"
             />
-            <button className="px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition">
+            <button className="btn-primary">
               Subscribe
             </button>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Footer */}
-        <div className="pt-12 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm">© 2024 Oneflow AB. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-gray-400 hover:text-white transition">

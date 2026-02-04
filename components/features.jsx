@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Features() {
   return (
-    <section className="bg-gradient-to-b from-teal-900 to-teal-800 py-16 md:py-24">
+    <section className="bg-secondary py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Company Logos */}
         <div className="text-center mb-16">
@@ -22,12 +22,12 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              Turn <br /> signatures <br /> into smart <br /> contracts
+              Turn signatures into smart contracts
             </h2>
             <p className="text-white text-lg opacity-90">
               Experience the contract magic by automating the entire contract process — from creating to signing and managing.
             </p>
-            <button className="px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition">
+            <button className="btn-primary">
               Take our product tour
             </button>
           </div>
